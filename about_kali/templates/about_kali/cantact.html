@@ -1,0 +1,24 @@
+{% extends 'about_kali/base.html' %}
+{% load static %}
+{% block title  %}
+    Cantact
+{% endblock %}
+{% block main  %}
+<div class="contact">
+    <div>
+        <br>
+        <h1>Support</h1>
+        <br>
+        <h2>Technical Support</h2>
+        <p>There is a thin line between with Kali and using Kali. If it is a problem with:</p>
+
+        <ul>
+            <li>The base Operating system, Kali, get in touch with us</li>
+            <li>A package, get in touch with us.</li>
+            <li>If it is how to use a tool, then you need to get in touch with the original author</li>
+        </ul>
+        <p>So if you have a technical issue with Kali, we suggest looking at our community support page, which will give you various methods of getting help.</p>
+    </div>
+    <img class="tex-icon" src="{% static 'about_kali/tex.png' %}" alt="tex">
+</div>
+{% endblock %}

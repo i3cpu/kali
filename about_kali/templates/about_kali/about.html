@@ -1,0 +1,39 @@
+{% extends 'about_kali/base.html' %}
+{% block title %}
+    about
+{% endblock %}
+{% block main %}
+    <br>
+    <h1>Kali Linux Features</h1>
+    <br>
+    <h2>What is Kali Linux, and what is a Penetration Testing Distribution?</h2>
+    <p>What is a penetration testing distribution? As legend tells it, years ago there was a penetration test in an isolated environment where the assessment team was not able to bring in any computers or have network access in or out of the target environment. In order to do the work, the first penetration testing distribution was born. It was a bootable Live CD configured with various tools needed to do the work, and after the assessment was completed the Live CD was shared online and became very popular.
+
+    Kali Linux has a direct lineage from this original distribution, running on through BackTrack Linux, and now is Kali Linux.
+    
+    What are the makings of a great penetration testing distribution? What a penetration testing distribution is judged on has changed over the years. Originally it was just how many tools did it hold. Then it was did it have package management, and how often were they updated? As we have matured, so has the features that we need to provide. The true indication of a great Penetration Testing distribution is the selection of useful and relevant features that it offers security professionals. What kind of features are we talking about? We’re happy you asked! We’ve made a short list of some of these Kali Linux features, and linked them to their respective sources.</p>
+    <br>
+    <h2>Special Kali Linux Features of Note</h2>
+    <p>Full customisation of Kali ISOs. With the use of metapackages optimized for specific need sets of a security professional and a highly accessible ISO customization process a optimized version of Kali for your specific needs is always easy to generate.
+        Kali Linux is heavily integrated with live-build, allowing endless flexibility in customizing and tailoring every aspect of your Kali Linux ISO images. This can be shown with our basic example build recipes, to our Kali ISO of doom recipe, which shows the types and complexity of customizations possible - build a self installing, reverse VPN auto-connecting, network bridging Kali image - for the perfect hardware backdoor.</p>
+        
+        <p>Live USB Boot. This allows you to place Kali onto a USB device, and boot without touching the host operating system (perfect also for any forensics work!). With optional persistence volume(s) you can have opt to pick what file system to use when Kali starts up allowing for files to be saved in between sessions, creating multiple profiles. Each persistence volume can be encrypted essential feature needed in our industry.
+        If that is not enough, we also have LUKS nuke option, allowing you to quickly control the destruction of data.</p> 
+        
+        <p>  Kali Undercover. Using Kali in an environment you don’t want to draw attention to yourself? Kali Undercover is perfect to not stand out in a crowd by blending to a familiar operating system that most people recognize to stop shoulder surfers.</p> 
+        
+        <p> Win-KeX. Using Kali on WSL? This provides a Kali Desktop Experience for Windows Subsystem for Linux (WSL), with seamless windows, clipboard sharing, audio support and more.</p> 
+        
+        <p> Kali NetHunter. Kali on your (Android) phone and smart watch. This covers multiple items, such as a ROM overlay for multiple devices, NetHunter App, as well as NetHunter App Store. On top of this, you also boot into a “full desktop” using chroot & containers, as well as “Kali NetHunter Desktop Experience (KeX)”.</p> 
+        
+        <p> Kali Everywhere. A version of Kali is always close to you no matter where you need it. Let it be; ARM (including Raspberry Pis), Bare-Metal (Single and multi-boot), Cloud (AWS, Digital Ocean & Linode), Containers (Docker, Podman, LXD & WSL), Virtual Machines (VMware, VirtualBox, Hyper-V, Parallels & Vagrant), USB, and so on - is all available.</p> 
+        
+        <p> We also make all our build-scripts for all our platforms public so you can generate the images yourself too!</p> 
+        <p>
+        Kali Unkaputtbar. Using Btrfs file system, you can take snapshots of Kali just like you were using a VM, and roll back to a previous state.</p> 
+        
+        <p>Kali ARM. Supporting over a dozen different ARM devices and common hardware such as Raspberry Pi, Pinebooks, USB armory, Gateworks, Odroid, Beaglebone, and more. We offer pre-generated images, ready to be used as well as build-scripts to produce more. We’re very active in the ARM arena and constantly add new interesting hardware to our repertoire.</p> 
+        
+        <p>The Industry Standard. Kali Linux is the undisputed industry standard Open-source penetration testing platform.</p>
+        <br>
+{% endblock %}

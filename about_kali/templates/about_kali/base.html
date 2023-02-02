@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'about_kali/style.css' %}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="log"><img class="img-logo" src="{% static 'about_kali/kali-logo.svg' %}" alt="logo"></div>
+            <div class="nav"> <a href="{% url 'main' %}"> Main</a></div>
+            <div class="nav"> <a href="{% url 'download' %}">Download</a></div>
+            <div class="nav"> <a href="{% url 'installation' %}">Installation</a></div>
+            <div class="nav"> <a href="{% url 'about' %}"> About</a></div>
+            
+            <div class="nav"> <a href="cantact">Cantact </a></div>
+
+        </header>
+
+        <main>
+        {% block main %}
+            {% block image %}
+            {% endblock %}
+        {% endblock %}
+        </main>
+
+        <footer>
+            <a class="kali-button" href="{% url 'main' %}">Main page</a>
+        </footer>
+    </div>
+</body>
+</html>

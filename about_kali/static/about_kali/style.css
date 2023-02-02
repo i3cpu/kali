@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0 10px 0;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 83, 160);
+}
+.image{
+
+    background-image: url('kali-linux.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: auto;
+    height: 600px;
+    padding: 86px;
+    border-radius: 10px;
+    /* opacity: 0.6; */
+}
+.description{
+    margin-top: 20px 0px 0px 0px ;
+    text-align: center;
+}
+footer{
+    border-top: 1px solid black;
+    padding:10px 0px 10px 0px;
+    margin-top: 50px;
+}
+p{
+    font-size: 1.5em;
+
+}
+.log{
+    width: auto;
+    height: auto;
+    /* background-color: red; */
+}
+.img-logo {
+    width: 100px;
+}
+.nav{
+    font-size:1.3em;
+}
+footer{
+    display: flex;
+    justify-content:flex-end;
+
+}
+.kali-button{
+    text-decoration: none   ;
+    background-color: rgb(8, 8, 8);
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin-top: 10px;
+    color: rgb(248, 246, 246);
+}
+
+p{
+    width: auto;
+}
+.dragon{
+    width: 300px;
+    height: 300pxs;
+    margin: 20px;
+}
+.download_content{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.get_kali{
+    text-decoration: none   ;
+    background-color: rgb(50, 171, 219);
+    padding: 15px;
+    border-radius: 20px;
+    /* border: 2px solid rgb(255, 255, 255); */
+    margin-top: 10px;
+    color: rgb(248, 246, 246);
+}
+.get_kali:hover{
+    padding: 18px;
+}
+ul{
+    display:flexbox;
+    font-size: 1.6em;
+}
+li{
+    padding: 10px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+}
+.tex-icon{
+    width: 300px;
+    height: 300px;
+    margin: 130px 0px 0px 30px;
+}
+.installation-content{
+    display: flex;
+    align-items: center;
+}
+.installation-content  img{
+    margin: 50px 0px 20px 7                         0px;
+    width: 480px;
+
+}

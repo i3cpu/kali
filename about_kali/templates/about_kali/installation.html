@@ -1,0 +1,40 @@
+{% extends 'about_kali/base.html' %}
+{% load static %}
+{% block main %}
+<br><br>
+<h1>Installing Kali Linux on desktops & laptops using ".ISO" files (x64/x86)</h1>   
+<article class="installation-content"> 
+
+    <div>
+            <ul>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/barebone-kali/">Bare-bones Kali</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/hard-disk-install/">Installing Kali Linux</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/hard-disk-install-on-mac/">Installing Kali on Mac Hardware</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/dual-boot-kali-with-linux/">Dual Booting Kali with Linux</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/dual-boot-kali-with-mac/">Dual Booting Kali with macOS/OS X</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/dual-boot-kali-with-windows/">Dual Booting Kali with Windows</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/btrfs/">BTRFS Install (Kali Unkaputtbar)</a>
+                </li>
+                <li>
+                    <a href="https://www.kali.org/docs/installation/network-pxe/">Deploying Kali over Network PXE/iPXE Install</a>
+                </li>
+            </ul>
+    </div>
+    <img src="{% static 'about_kali/install.png' %}" alt="install-page">
+
+ 
+</article>    
+{% endblock %}
